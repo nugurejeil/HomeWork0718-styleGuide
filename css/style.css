@@ -1,10 +1,11 @@
 @charset "utf-8";
 
 body{
+  font-size: 1em;
   width:960px;
   margin: 0 auto;
   line-height: 1.5em;
-/*  font-family: 'Spoqa Han Sans', sans-serif;*/
+  font-family: 'Spoqa Han Sans', sans-serif;
   color: #4d5256;
 }
 
@@ -21,8 +22,8 @@ h1{
 h1::after{
   display: block;
   position:absolute;
-  bottom:-8px;
-  right:-10px;
+  bottom:3px;
+  right:-14px;
   content:"HTML/CSS";
   font-size: 3em;
   font-weight: 900;
@@ -84,6 +85,7 @@ code{
 
 code.charset{
   display: inline;
+  padding:2px;
 }
 .element{
   color:#ff3764;
